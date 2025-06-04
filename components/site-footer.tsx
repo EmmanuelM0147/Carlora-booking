@@ -118,8 +118,23 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Carlora Strategic Innovation Ltd. All rights reserved.
+        <div className="mt-12 pt-8 border-t border-[#e5e5e5] dark:border-[#333333] transition-colors duration-300">
+          <div className="text-center text-[#555555] dark:text-[#cccccc] transition-colors duration-300">
+            <p>© {new Date().getFullYear()} Carlora Strategic Innovation. All rights reserved.</p>
+            <p className="mt-2">
+              Built and Engineered by{' '}
+              <a
+                href="https://www.kingstechstudio.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0066cc] hover:text-[#004d99] dark:text-[#66b3ff] dark:hover:text-[#99ccff] 
+                  transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-[#0066cc] dark:focus:ring-[#66b3ff] 
+                  rounded"
+              >
+                Kings Tech Studio
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
