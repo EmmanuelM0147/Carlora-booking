@@ -10,9 +10,9 @@ import { Button } from "@/components/ui/button";
 const testimonials = [
   {
     name: "Sarah Johnson",
-    role: "CEO, TechStart Inc",
-    content: "Working with this team transformed our business approach completely. Their strategic insights helped us achieve 200% growth in just 18 months.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop"
+    role: "Startup Founder",
+    content: "Carlora's insights transformed our operations. Their team is knowledgeable, proactive, and truly invested in our success.",
+    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&auto=format&fit=crop"
   },
   {
     name: "Michael Chen",
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Emma Davis",
     role: "Founder, Innovation Labs",
     content: "The team's innovative approach to problem-solving and dedication to our success made all the difference. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=400&h=400&auto=format&fit=crop",
   }
 ];
 
