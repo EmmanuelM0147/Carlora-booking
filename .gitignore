@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/buildPlease evaluate the accessibility of this webpage and provide a detailed report identifying specific accessibility issues, barriers, and violations of WCAG 2.1 guidelines. Include recommendations for improvements in the following areas:
+
+1. Navigation and structure
+2. Color contrast and visual elements
+3. Screen reader compatibility
+4. Keyboard accessibility
+5. Form functionality and labels
+6. Alternative text for images
+7. Heading hierarchy
+8. Interactive elements
+
+Please provide specific examples of issues found and actionable solutions to make the page compliant with current accessibility standards.
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
